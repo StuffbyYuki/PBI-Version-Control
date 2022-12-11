@@ -1,5 +1,5 @@
 {
-  "name": "Fitbit Dashboard",
+  "name": "Untitled",
   "compatibilityLevel": 1550,
   "model": {
     "culture": "en-US",
@@ -18,6 +18,7 @@
           {
             "name": "Date",
             "dataType": "dateTime",
+            "isHidden": true,
             "sourceColumn": "Date",
             "formatString": "Long Date",
             "lineageTag": "1af6b75a-af2e-4834-8d59-9fcbf1c25339",
@@ -941,10 +942,6 @@
         ],
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -957,6 +954,7 @@
           {
             "name": "Start Date",
             "dataType": "dateTime",
+            "isHidden": true,
             "sourceColumn": "Start Date",
             "formatString": "Long Date",
             "lineageTag": "d6eef988-8362-41f4-998b-c2aa050e8943",
@@ -979,6 +977,7 @@
           {
             "name": "End Date",
             "dataType": "dateTime",
+            "isHidden": true,
             "sourceColumn": "End Date",
             "formatString": "Long Date",
             "lineageTag": "f22e3c79-1661-4453-a2c9-0a1d9b051b24",
@@ -1134,6 +1133,7 @@
           {
             "name": "Start Time",
             "dataType": "dateTime",
+            "isHidden": true,
             "sourceColumn": "Start Time",
             "formatString": "Long Time",
             "lineageTag": "9429321d-0f24-4239-b516-f64c3484c747",
@@ -1156,6 +1156,7 @@
           {
             "name": "End Time",
             "dataType": "dateTime",
+            "isHidden": true,
             "sourceColumn": "End Time",
             "formatString": "Long Time",
             "lineageTag": "d707d2d6-e984-44a2-a484-3f1cf9b2d77a",
@@ -1288,6 +1289,7 @@
           {
             "name": "Hours Deep Sleep",
             "dataType": "double",
+            "isHidden": true,
             "sourceColumn": "Hours Deep Sleep",
             "lineageTag": "51f6cfc4-2fdc-4b19-a490-d8656c3ff5c2",
             "summarizeBy": "sum",
@@ -1299,6 +1301,10 @@
               {
                 "name": "PBI_FormatHint",
                 "value": "{\"isGeneralNumber\":true}"
+              },
+              {
+                "name": "PBI_ChangedProperties",
+                "value": "[\"IsHidden\"]"
               }
             ]
           }
@@ -2125,10 +2131,6 @@
         ],
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -2733,10 +2735,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
           }
         ]
       },
@@ -2778,10 +2776,6 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
-          },
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
           }
         ]
       },
@@ -19114,7 +19108,7 @@
       },
       {
         "name": "TabularEditor_SerializeOptions",
-        "value": "{\"IgnoreInferredObjects\":true,\"IgnoreInferredProperties\":true,\"IgnoreTimestamps\":true,\"SplitMultilineStrings\":true,\"PrefixFilenames\":false,\"LocalTranslations\":false,\"LocalPerspectives\":false,\"LocalRelationships\":false,\"Levels\":[\"Data Sources\",\"Perspectives\",\"Relationships\",\"Roles\",\"Shared Expressions\",\"Tables\",\"Tables/Calculation Items\",\"Tables/Columns\",\"Tables/Hierarchies\",\"Tables/Measures\",\"Tables/Partitions\",\"Translations\"]}"
+        "value": "{\"IgnoreInferredObjects\":true,\"IgnoreInferredProperties\":true,\"IgnoreTimestamps\":true,\"SplitMultilineStrings\":true,\"PrefixFilenames\":false,\"LocalTranslations\":false,\"LocalPerspectives\":false,\"LocalRelationships\":false,\"Levels\":[\"Data Sources\",\"Shared Expressions\",\"Perspectives\",\"Relationships\",\"Roles\",\"Tables\",\"Tables/Columns\",\"Tables/Hierarchies\",\"Tables/Measures\",\"Tables/Partitions\",\"Tables/Calculation Items\",\"Translations\"]}"
       }
     ]
   }
